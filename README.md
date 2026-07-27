@@ -165,13 +165,6 @@ npm run dev
 
 서버 실행 후 GET http://localhost:3000/health에서 상태를 확인할 수 있습니다.
 
-## 구현 범위와 한계
-
-- 프로젝트는 로컬 환경에서 핵심 기능을 시연했으며 별도 서버 배포는 진행하지 않았습니다.
-- 현재 공개된 main 브랜치에는 JWT 단일 토큰 발급·검증 코드가 포함되어 있습니다. 프로젝트에서 구현했던 Refresh Token 재발급 코드는 이 공개 버전에 반영되어 있지 않으며, 토큰 폐기·재사용 방지 정책도 구현하지 않았습니다.
-- 자동화 테스트와 장기 운영·모니터링 경험은 포함되어 있지 않습니다.
-- Arduino, Raspberry Pi Gateway, 프론트엔드 및 Unity WebGL 코드는 이 백엔드 저장소에 포함되어 있지 않습니다.
-
 ## 관련 링크
 
 - [Backend Developer Portfolio](https://circular-suit-b2e.notion.site/Node-js-Backend-Developer-41f5ff1fd7da4d5680a9bef014ee853c)
